@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6623D4BB-1DBB-47E1-BA7D-626471193860}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="FrmBooksBorrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBooksBorrow.Designer.cs">
+      <DependentUpon>FrmBooksBorrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBooksReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBooksReturn.Designer.cs">
+      <DependentUpon>FrmBooksReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForgetMiMa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForgetMiMa.Designer.cs">
+      <DependentUpon>FrmForgetMiMa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookManagementSysForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookManagementSysForm.Designer.cs">
+      <DependentUpon>BookManagementSysForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookManagermentFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookManagermentFrom.Designer.cs">
+      <DependentUpon>BookManagermentFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShanChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShanChu.Designer.cs">
+      <DependentUpon>FrmShanChu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudent.Designer.cs">
+      <DependentUpon>FrmStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTianJia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTianJia.Designer.cs">
+      <DependentUpon>FrmTianJia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmXiuGai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmXiuGai.Designer.cs">
+      <DependentUpon>FrmXiuGai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYongHu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYongHu.Designer.cs">
+      <DependentUpon>FrmYongHu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYongHuXinXiGuanLi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYongHuXinXiGuanLi.Designer.cs">
+      <DependentUpon>FrmYongHuXinXiGuanLi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYongHuXQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYongHuXQ.Designer.cs">
+      <DependentUpon>FrmYongHuXQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZhuCe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZhuCe.Designer.cs">
+      <DependentUpon>FrmZhuCe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BookManagementSysForm.resx">
+      <DependentUpon>BookManagementSysForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookManagermentFrom.resx">
+      <DependentUpon>BookManagermentFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBooksBorrow.resx">
+      <DependentUpon>FrmBooksBorrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBooksReturn.resx">
+      <DependentUpon>FrmBooksReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForgetMiMa.resx">
+      <DependentUpon>FrmForgetMiMa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShanChu.resx">
+      <DependentUpon>FrmShanChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudent.resx">
+      <DependentUpon>FrmStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTianJia.resx">
+      <DependentUpon>FrmTianJia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmXiuGai.resx">
+      <DependentUpon>FrmXiuGai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYongHu.resx">
+      <DependentUpon>FrmYongHu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYongHuXinXiGuanLi.resx">
+      <DependentUpon>FrmYongHuXinXiGuanLi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYongHuXQ.resx">
+      <DependentUpon>FrmYongHuXQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZhuCe.resx">
+      <DependentUpon>FrmZhuCe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
